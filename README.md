@@ -1,7 +1,8 @@
-Software Design Patterns
+#Software Design Patterns
 
-Implementations and demos of the most popular creational, behavioral and structural software design patterns.
-Creational Design Patterns
+##Implementations and demos of the most popular creational, behavioral and structural software design patterns.
+
+####Creational Design Patterns
 
     Abstract Factory
     Builder
@@ -11,7 +12,7 @@ Creational Design Patterns
     Simple Factory
     Singleton
 
-Structural Design Patterns
+####Structural Design Patterns
 
     Adapter
     Bridge
@@ -21,7 +22,7 @@ Structural Design Patterns
     Flyweight
     Proxy
 
-Behavioral Design Patterns
+####Behavioral Design Patterns
 
     Chain Of Responsibility
     Command
@@ -34,5 +35,3 @@ Behavioral Design Patterns
     Strategy
     Template Method
     Visitor
-
-More examples and UML diagrams - link
