@@ -21,4 +21,8 @@ public class SingletonTwo {
             return instance;
         }
     }
+
+    public String getValue() {
+        return value;
+    }
 }
