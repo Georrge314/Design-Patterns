@@ -13,8 +13,8 @@ public class DemoMultiThread {
 
         @Override
         public void run() {
-            Singleton singleton = new Singleton("Car");
-            System.out.println(singleton.value);
+            Singleton singleton = Singleton.getInstance("BMW");
+            System.out.println(singleton.getValue());
         }
     }
 
@@ -22,8 +22,8 @@ public class DemoMultiThread {
 
         @Override
         public void run() {
-            Singleton singleton = new Singleton("Manual");
-            System.out.println(singleton.value);
+            Singleton singleton = Singleton.getInstance("Manual");
+            System.out.println(singleton.getValue());
         }
     }
 }

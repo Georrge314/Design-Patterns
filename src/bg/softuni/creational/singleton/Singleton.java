@@ -2,9 +2,9 @@ package bg.softuni.creational.singleton;
 
 public final class Singleton {
     private static Singleton instance;
-    public String value;
+    private String value;
 
-    public Singleton(String value) {
+    private Singleton(String value) {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
@@ -18,5 +18,9 @@ public final class Singleton {
             instance = new Singleton(value);
         }
         return instance;
+    }
+
+    public String getValue() {
+        return value;
     }
 }
