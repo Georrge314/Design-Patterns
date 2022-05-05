@@ -2,7 +2,7 @@ package bg.softuni.creational.singleton;
 
 public final class Singleton {
     private static Singleton instance;
-    private String value;
+    private final String value;
 
     private Singleton(String value) {
         try {
