@@ -6,12 +6,10 @@ public class Demo {
 
         CarBuilder carBuilder = new CarBuilder();
         director.constructSportsCar(carBuilder);
-
         System.out.println(carBuilder.getResult().getCarType());
 
         CarManualBuilder carManualBuilder = new CarManualBuilder();
         director.constructSportsCar(carManualBuilder);
-
         System.out.println(carManualBuilder.getResult().print());
     }
 }
